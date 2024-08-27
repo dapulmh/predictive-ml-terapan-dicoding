@@ -8,32 +8,29 @@ Dalam dunia yang semakin kompetitif, baik perusahaan maupun karyawan sangat memb
 
 ## Business Understanding
 
-Pada bagian ini, kamu perlu menjelaskan proses klarifikasi masalah.
+Dalam konteks bisnis, prediksi gaji memainkan peran penting dalam berbagai aspek operasional dan strategis. Perusahaan, khususnya dalam sektor perekrutan, sangat bergantung pada data gaji untuk menawarkan kompensasi yang kompetitif dan adil kepada calon karyawan. Sebuah prediksi gaji yang akurat membantu perusahaan dalam menetapkan anggaran gaji, merancang struktur kompensasi yang menarik, dan meminimalkan risiko kehilangan talenta potensial akibat penawaran yang kurang kompetitif.
 
-Bagian laporan ini mencakup:
+Di sisi lain, karyawan dan pencari kerja juga sangat diuntungkan dengan adanya model prediksi gaji yang dapat diandalkan. Dengan mengetahui estimasi gaji berdasarkan profil mereka, mereka dapat lebih percaya diri dalam melakukan negosiasi gaji dan mengambil keputusan karier yang lebih baik.
 
 ### Problem Statements
 
-Menjelaskan pernyataan masalah latar belakang:
-- Pernyataan Masalah 1
-- Pernyataan Masalah 2
-- Pernyataan Masalah n
+Permasalahan utama yang ingin diselesaikan dalam proyek ini adalah:
+
+- Bagaimana kita dapat memprediksi gaji seseorang secara akurat berdasarkan umur dari pelamar ?
+- Seberapa efektif model machine learning dalam memprediksi gaji dibandingkan dengan metode tradisional?
 
 ### Goals
 
-Menjelaskan tujuan dari pernyataan masalah:
-- Jawaban pernyataan masalah 1
-- Jawaban pernyataan masalah 2
-- Jawaban pernyataan masalah n
+Tujuan dari diadakannya proyek ini diantara lain:
+- Mengembangkan model prediksi gaji menggunakan algoritma machine learning.
+- Menguji akurasi model dan membandingkan kinerjanya dengan berbagai metode.
+- Menghasilkan wawasan yang dapat membantu perekrut dan karyawan dalam pengambilan keputusan terkait gaji.
 
-Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pernyataan masalah dan juga goals yang diinginkan.
+Proyek ini akan memberikan kontribusi penting dalam pemahaman tentang bagaimana berbagai faktor mempengaruhi gaji, serta menyediakan alat yang berguna untuk prediksi gaji yang akurat dan berbasis data.
 
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Menambahkan bagian “Solution Statement” yang menguraikan cara untuk meraih goals. Bagian ini dibuat dengan ketentuan sebagai berikut: 
-
-    ### Solution statements
-    - Mengajukan 2 atau lebih solution statement. Misalnya, menggunakan dua atau lebih algoritma untuk mencapai solusi yang diinginkan atau melakukan improvement pada baseline model dengan hyperparameter tuning.
-    - Solusi yang diberikan harus dapat terukur dengan metrik evaluasi.
+### Solution statements
+- Mengajukan 2 atau lebih solution statement. Misalnya, menggunakan dua atau lebih algoritma untuk mencapai solusi yang diinginkan atau melakukan improvement pada baseline model dengan hyperparameter tuning.
+- Solusi yang diberikan harus dapat terukur dengan metrik evaluasi.
 
 ## Data Understanding
 Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
