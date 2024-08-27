@@ -29,8 +29,22 @@ Tujuan dari diadakannya proyek ini diantara lain:
 Proyek ini akan memberikan kontribusi penting dalam pemahaman tentang bagaimana berbagai faktor mempengaruhi gaji, serta menyediakan alat yang berguna untuk prediksi gaji yang akurat dan berbasis data.
 
 ### Solution statements
-- Mengajukan 2 atau lebih solution statement. Misalnya, menggunakan dua atau lebih algoritma untuk mencapai solusi yang diinginkan atau melakukan improvement pada baseline model dengan hyperparameter tuning.
-- Solusi yang diberikan harus dapat terukur dengan metrik evaluasi.
+Tujuan utama proyek ini adalah mengembangkan model prediktif yang akurat untuk memperkirakan gaji seseorang berdasarkan faktor-faktor seperti umur.
+
+Solusi yang diusulkan mencakup:
+
+1. Pengembangan Model Machine Learning:
+- Menggunakan algoritma regresi (misalnya, Linear Regression, Random Forest, atau Gradient Boosting) untuk membangun model prediksi gaji.
+- Melakukan eksperimen dengan berbagai algoritma dan teknik untuk menentukan model yang paling akurat.
+  
+2. Evaluasi Model:
+- Menggunakan metrik evaluasi seperti Mean Absolute Error (MAE), Root Mean Square Error (RMSE), dan R-squared (R²) untuk mengukur kinerja model.
+- Melakukan cross-validation untuk memastikan generalisasi model pada data yang tidak terlihat (unseen data).
+  
+3. Optimalisasi Model:
+
+- Melakukan tuning hyperparameter menggunakan gridsearch untuk meningkatkan akurasi model.
+- Menerapkan teknik feature engineering untuk menciptakan fitur-fitur baru yang mungkin lebih berkaitan dengan gaji.
 
 ## Data Understanding
 Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
@@ -38,19 +52,26 @@ Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan d
 Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
 
 ### Variabel-variabel pada Restaurant UCI dataset adalah sebagai berikut:
-- accepts : merupakan jenis pembayaran yang diterima pada restoran tertentu.
-- cuisine : merupakan jenis masakan yang disajikan pada restoran.
-- dst
+- id : id dari data tersebut
+- yearsExperience : Umur pengalaman kerja
+- salary : Pendapatan yang didapat
 
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data atau exploratory data analysis.
 
 ## Data Preparation
-Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dilakukan. Teknik yang digunakan pada notebook dan laporan harus berurutan.
+Data preparation adalah langkah penting yang memastikan data yang digunakan dalam pembangunan model memiliki kualitas tinggi dan relevan. Beberapa langkah dalam data preparation meliputi:
 
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menjelaskan proses data preparation yang dilakukan
-- Menjelaskan alasan mengapa diperlukan tahapan data preparation tersebut.
+1. Cleaning the Data:
+
+- Mengatasi missing values: Mengisi atau menghapus data yang hilang (missing data) menggunakan teknik seperti imputasi rata-rata, median, atau metode lainnya.
+- Menangani outliers: Mempertimbangkan strategi untuk menangani outliers yang dapat mencakup penghapusan atau transformasi data.
+
+2. Feature Engineering:
+Scaling and normalization: Menerapkan teknik scaling (misalnya, Standardization atau Min-Max Scaling) pada variabel numerik agar semua fitur berada dalam skala yang sama, sehingga model tidak bias terhadap fitur tertentu.
+
+3. Splitting the Dataset:
+- Membagi dataset menjadi set pelatihan (training set) dan set pengujian (testing set) untuk memastikan model yang dibangun dapat melakukan generalisasi pada data yang belum pernah dilihat sebelumnya.
+- Memastikan distribusi variabel penting seperti gaji merata di kedua subset untuk mencegah bias.
+- Dengan persiapan data yang matang dan pemilihan solusi yang tepat, proyek ini diharapkan dapat menghasilkan model prediksi gaji yang tidak hanya akurat tetapi juga dapat diandalkan dan aplikatif dalam berbagai konteks bisnis.
 
 ## Modeling
 Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyelesaikan permasalahan. Anda perlu menjelaskan tahapan dan parameter yang digunakan pada proses pemodelan.
