@@ -35,8 +35,20 @@ Dataset diambil dari Kaggle dan memiliki atribut berikut:
 7. KM: Jumlah kamar mandi.
 8. GRS: Kapasitas garasi (jumlah mobil).
 
+## Explaratory Data Analysis
+
+### Univariate Data Analysis
+
+![download](https://github.com/user-attachments/assets/9ed21535-b833-4e70-8496-6422ad91c3c5)
+
+
+### Multivariate Data Analysis
+
+![download](https://github.com/user-attachments/assets/b461cb1c-f172-47da-9390-9a92c91e0533)
+
 ## Preprocessing
 - Missing Values: Penanganan data yang hilang dengan dengan menghilangkan data.
+  Berdasarkan dataset tersebut 
 - Scaling: Normalisasi atau standarisasi fitur numerik.
 - Duplicate Values : Penanganan data yang duplikat dengan menghilangkan data.
 
