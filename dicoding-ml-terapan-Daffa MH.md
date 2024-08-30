@@ -15,7 +15,6 @@ Tujuan utama dari proyek ini adalah untuk menyediakan model prediksi harga rumah
 ## Goals
 - Mengembangkan model prediktif yang akurat untuk memprediksi harga rumah di Menteng.
 - Mengidentifikasi faktor-faktor kunci yang mempengaruhi harga rumah.
-- Menyediakan wawasan untuk pengambilan keputusan terkait properti.
 
 ## Solution Statements
 - Eksplorasi Data: Analisis eksplorasi untuk memahami distribusi harga dan hubungan antar-variabel.
@@ -83,6 +82,8 @@ Berdasarkan data yang diperoleh tidak terdapat duplicate value sehingga tidak pe
   
 Berdasarkan evaluasi data, penghilangan outlier malah mengurangi akurasi data sehingga tidak saya hilangkan
 
+- Melakukan train test split dimana memisahkan data yang akan digunakan untuk training dengan data yang akan digunakan untuk test
+  
 ## Model Development
 
 Model yang Digunakan:
@@ -172,8 +173,12 @@ Hasil dari model yang dipilih akan dibandingkan untuk menentukan model dengan pe
 
 ![Screenshot 2024-08-29 223559](https://github.com/user-attachments/assets/1cfcdb13-f6f6-4e14-97e7-dd4497438bc9)
 
-Bisa dilihat secara umum model Boosting Regressor lebih menghasilkan prediksi yang lebih baik dibandingkan model lainnya
-
 ![download](https://github.com/user-attachments/assets/42154ce3-0ec6-47bf-874e-fa6321aad419)
+
+ Jawaban dari Problem Statement: 
+1. Bisa dilihat secara umum model Boosting Regressor lebih menghasilkan prediksi yang lebih baik dibandingkan model lainnya. Hal ini yang membuat kita dapat memakai model boosting regression untuk memprediksi harga properti di menteng. Akan tetapi hasil evaluasi model masih dapat ditingkatkan.
+2. Lalu untuk atribut-atribut yang sangat mempengaruhi harga properti di kawasan menteng adalah LT (luas tan nah) daLB (luas bangunan)  
+
+
 
 
