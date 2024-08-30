@@ -20,7 +20,7 @@ Tujuan utama dari proyek ini adalah untuk menyediakan model prediksi harga rumah
 ## Solution Statements
 - Eksplorasi Data: Analisis eksplorasi untuk memahami distribusi harga dan hubungan antar-variabel.
 - Data Preparation: Preprocessing data, termasuk penanganan missing values dan scaling.
-- Modelling: Pengembangan dan evaluasi beberapa model machine learning.
+- Model Development: Pengembangan dan evaluasi beberapa model machine learning. Model Machine Learning yang digunakan dalam proyek ini yaitu Linear Regression, Boosting Algorithm, Random Forest Algorithm, dan KNN. Keempat model tersebut dicari nilai evaluasi yang paling baik untuk memprediksi harga rumah di menteng.
 - Evaluation: Mengevaluasi kinerja model menggunakan metrik seperti MAE, RMSE, dan R².
 
 ## Data Understanding
@@ -32,8 +32,26 @@ Dataset diambil dari Kaggle dan memiliki atribut berikut:
 4. LB: Luas bangunan (m²).
 5. LT: Luas tanah (m²).
 6. KT: Jumlah kamar tidur.
-7. KM: Jumlah kamar mandi.
-8. GRS: Kapasitas garasi (jumlah mobil).
+8. KM: Jumlah kamar mandi.
+9. GRS: Kapasitas garasi (jumlah mobil).
+
+Link Dataset : https://www.kaggle.com/datasets/wisnuanggara/daftar-harga-rumah
+
+Kondisi Dataset:
+- Kondisi dataset tidak memilki Null Value
+- Kondisi dataset Memiliki outlier akan tetapi penghilangan outlier mempengaruhi hasil evaluasi model sehingga tidak dihilangkan
+- Kondisi dataset tidak memilki duplicate Value
+- Terdapat atribut yang unik sehingga mengurangi hasil evaluasi model sehingga lebih baik dihilangkan seperti atribut NO dan NAMA RUMAH
+
+Hal ini yang membuat fitur-fitur dalam dataset menjadi:
+1. HARGA: Harga rumah (dalam rupiah).
+2. LB: Luas bangunan (m²).
+3. LT: Luas tanah (m²).
+4. KT: Jumlah kamar tidur.
+5. KM: Jumlah kamar mandi.
+6. GRS: Kapasitas garasi (jumlah mobil).
+
+Setelah dilakukan cleaning dan feature engineering maka dataset memiliki 1010 baris data dan 6 kolom atribut yang digunakan
 
 ## Explaratory Data Analysis
 
@@ -69,10 +87,60 @@ Berdasarkan evaluasi data, penghilangan outlier malah mengurangi akurasi data se
 
 Model yang Digunakan:
 - Linear Regression: model machine learning statistik yang digunakan untuk memprediksi nilai dari variabel dependen (target) berdasarkan satu atau lebih variabel independen (fitur)
+
+### Cara Kerja
+1. **Model Linear**: 
+   - Asumsi bahwa ada hubungan linear antara input (X) dan output (Y), dalam bentuk persamaan:
+     \[
+     Y = b_0 + b_1X_1 + b_2X_2 + ... + b_nX_n
+     \]
+2. **Fitting Model**:
+   - Menyesuaikan parameter (koefisien) \( b_0, b_1, \dots, b_n \) menggunakan metode **Least Squares**, yang meminimalkan jumlah kuadrat dari perbedaan antara nilai aktual dan nilai yang diprediksi.
+3. **Prediksi**:
+   - Prediksi dilakukan dengan memasukkan nilai input ke dalam persamaan linear yang telah dibentuk.
+
 - Random Forest: model ensemble yang menggabungkan banyak decision tree untuk meningkatkan akurasi dan mengurangi overfitting.
-- Boosting Regressor: Teknik ensemble yang menggabungkan beberapa model lemah (biasanya decision tree kecil) secara bertahap untuk membentuk model yang kuat. 
+
+### Cara Kerja
+1. **Pembuatan Forest**:
+   - Membangun banyak decision tree selama pelatihan, di mana setiap tree dilatih menggunakan subset acak dari data dan subset acak dari fitur.
+2. **Bagging**:
+   - Menggunakan teknik **bagging** (Bootstrap Aggregating) untuk membuat dataset acak dari data asli dengan pengambilan sampel acak dengan penggantian.
+3. **Voting atau Rata-rata**:
+   - Untuk klasifikasi, Random Forest melakukan voting mayoritas dari semua decision tree. Untuk regresi, diambil rata-rata dari semua prediksi.
+
+Dalam pengembangannya model random forest dikonfigurasikan parameternya menggunakan gridsearch cv sehingga model random forest dikonfigurasikan dengan parameter yang menghasilkan hasil evaluasi terbaik. Parameter tersebut yaitu:
+
+{'bootstrap': True, 'max_depth': 10, 'n_estimators': 100}
+
+- Boosting Regressor: Teknik ensemble yang menggabungkan beberapa model lemah (biasanya decision tree kecil) secara bertahap untuk membentuk model yang kuat.
+
+### Cara Kerja
+1. **Training Iteratif**:
+   - Melatih model secara bertahap, di mana setiap model baru mencoba untuk memperbaiki kesalahan dari model sebelumnya.
+2. **Pemberian Bobot**:
+   - Data yang sulit diprediksi diberi bobot lebih tinggi sehingga model berikutnya lebih fokus pada data tersebut.
+3. **Agregasi**:
+   - Model akhir adalah kombinasi dari semua model yang dilatih, di mana prediksi diambil dengan menggabungkan prediksi dari masing-masing model.
+  
+Dalam pengembangannya model Boosting regression dikonfigurasikan parameternya menggunakan gridsearch cv sehingga model Boosting regression dikonfigurasikan dengan parameter yang menghasilkan hasil evaluasi terbaik. Parameter tersebut yaitu:
+
+{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}
+   
 - KNN : algoritma non-parametrik yang digunakan untuk klasifikasi dan regresi. Dalam KNN, prediksi dibuat berdasarkan rata-rata atau mayoritas suara dari k tetangga terdekat dalam ruang fitur.
 
+### Cara Kerja
+1. **Jarak **:
+   - Menghitung jarak antara data baru dan semua data dalam dataset pelatihan menggunakan suatu metode jarak.
+2. **Pemilihan Tetangga Terdekat**:
+   - Memilih K data terdekat dari dataset pelatihan.
+3. **Voting atau Rata-rata**:
+   - Untuk klasifikasi, data baru diklasifikasikan ke dalam kelas yang paling umum di antara K tetangga terdekat (voting mayoritas). Untuk regresi, nilai prediksi dihitung sebagai rata-rata dari nilai-nilai tetangga terdekat.
+
+Dalam pengembangannya model KNN dikonfigurasikan parameternya menggunakan gridsearch cv sehingga model KNN dikonfigurasikan dengan parameter yang menghasilkan hasil evaluasi terbaik. Parameter tersebut yaitu:
+
+{'metric': 'manhattan', 'n_neighbors': 7}
+     
 Keempat model tersebut dieksperimenkan untuk dilakukan training dan dilihat evaluasi model mana yang memiliki hasil terbaik, baik untuk hasil training maupun validation. Saya juga melakukan gridsearch untuk menemukan parameter terbaik untuk setiap model sehingga mendapatkan akurasi yang maksimal untuk setiap modelnya.
 
 ## Evaluasi Model
