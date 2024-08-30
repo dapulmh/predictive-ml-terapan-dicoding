@@ -2908,7 +2908,7 @@
    "sourceType": "notebook"
   },
   "kernelspec": {
-   "display_name": "Python 3",
+   "display_name": "Python 3 (ipykernel)",
    "language": "python",
    "name": "python3"
   },
@@ -2922,7 +2922,7 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
-   "version": "3.10.14"
+   "version": "3.10.13"
   },
   "papermill": {
    "default_parameters": {},

@@ -3,19 +3,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "e0ebac94",
+   "id": "874f97ef",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:11.862955Z",
-     "iopub.status.busy": "2024-08-30T08:56:11.862629Z",
-     "iopub.status.idle": "2024-08-30T08:56:14.114993Z",
-     "shell.execute_reply": "2024-08-30T08:56:14.113888Z"
+     "iopub.execute_input": "2024-08-29T15:46:02.173818Z",
+     "iopub.status.busy": "2024-08-29T15:46:02.173500Z",
+     "iopub.status.idle": "2024-08-29T15:46:04.605444Z",
+     "shell.execute_reply": "2024-08-29T15:46:04.604694Z"
     },
     "papermill": {
-     "duration": 2.274683,
-     "end_time": "2024-08-30T08:56:14.117615",
+     "duration": 2.446565,
+     "end_time": "2024-08-29T15:46:04.607783",
      "exception": false,
-     "start_time": "2024-08-30T08:56:11.842932",
+     "start_time": "2024-08-29T15:46:02.161218",
      "status": "completed"
     },
     "tags": []
@@ -32,13 +32,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0e03bfc5",
+   "id": "c7618718",
    "metadata": {
     "papermill": {
-     "duration": 0.016407,
-     "end_time": "2024-08-30T08:56:14.150979",
+     "duration": 0.010339,
+     "end_time": "2024-08-29T15:46:04.629105",
      "exception": false,
-     "start_time": "2024-08-30T08:56:14.134572",
+     "start_time": "2024-08-29T15:46:04.618766",
      "status": "completed"
     },
     "tags": []
@@ -50,19 +50,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "bdb6c126",
+   "id": "a1936180",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:14.186223Z",
-     "iopub.status.busy": "2024-08-30T08:56:14.185691Z",
-     "iopub.status.idle": "2024-08-30T08:56:14.686592Z",
-     "shell.execute_reply": "2024-08-30T08:56:14.685437Z"
+     "iopub.execute_input": "2024-08-29T15:46:04.651224Z",
+     "iopub.status.busy": "2024-08-29T15:46:04.650793Z",
+     "iopub.status.idle": "2024-08-29T15:46:05.159137Z",
+     "shell.execute_reply": "2024-08-29T15:46:05.158132Z"
     },
     "papermill": {
-     "duration": 0.521015,
-     "end_time": "2024-08-30T08:56:14.688744",
+     "duration": 0.521798,
+     "end_time": "2024-08-29T15:46:05.161361",
      "exception": false,
-     "start_time": "2024-08-30T08:56:14.167729",
+     "start_time": "2024-08-29T15:46:04.639563",
      "status": "completed"
     },
     "tags": []
@@ -267,38 +267,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "7ca0026d",
-   "metadata": {
-    "papermill": {
-     "duration": 0.017913,
-     "end_time": "2024-08-30T08:56:14.724613",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:14.706700",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Load dataframe dari file excel DATA RUMAH "
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "56d60ff3",
+   "id": "9773871a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:14.763153Z",
-     "iopub.status.busy": "2024-08-30T08:56:14.762734Z",
-     "iopub.status.idle": "2024-08-30T08:56:14.782629Z",
-     "shell.execute_reply": "2024-08-30T08:56:14.781411Z"
+     "iopub.execute_input": "2024-08-29T15:46:05.185305Z",
+     "iopub.status.busy": "2024-08-29T15:46:05.184884Z",
+     "iopub.status.idle": "2024-08-29T15:46:05.204424Z",
+     "shell.execute_reply": "2024-08-29T15:46:05.203603Z"
     },
     "papermill": {
-     "duration": 0.042654,
-     "end_time": "2024-08-30T08:56:14.784846",
+     "duration": 0.033934,
+     "end_time": "2024-08-29T15:46:05.206689",
      "exception": false,
-     "start_time": "2024-08-30T08:56:14.742192",
+     "start_time": "2024-08-29T15:46:05.172755",
      "status": "completed"
     },
     "tags": []
@@ -331,38 +314,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "651f7b85",
-   "metadata": {
-    "papermill": {
-     "duration": 0.017221,
-     "end_time": "2024-08-30T08:56:14.819895",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:14.802674",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Dapatkan Info terkait atribut dataframe house"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "31127f04",
+   "id": "0dfff911",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:14.855388Z",
-     "iopub.status.busy": "2024-08-30T08:56:14.855078Z",
-     "iopub.status.idle": "2024-08-30T08:56:14.887475Z",
-     "shell.execute_reply": "2024-08-30T08:56:14.886435Z"
+     "iopub.execute_input": "2024-08-29T15:46:05.229717Z",
+     "iopub.status.busy": "2024-08-29T15:46:05.229427Z",
+     "iopub.status.idle": "2024-08-29T15:46:05.257190Z",
+     "shell.execute_reply": "2024-08-29T15:46:05.256317Z"
     },
     "papermill": {
-     "duration": 0.05252,
-     "end_time": "2024-08-30T08:56:14.889635",
+     "duration": 0.041466,
+     "end_time": "2024-08-29T15:46:05.259083",
      "exception": false,
-     "start_time": "2024-08-30T08:56:14.837115",
+     "start_time": "2024-08-29T15:46:05.217617",
      "status": "completed"
     },
     "tags": []
@@ -516,47 +482,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "9f6a2982",
+   "id": "107ec815",
    "metadata": {
     "papermill": {
-     "duration": 0.016755,
-     "end_time": "2024-08-30T08:56:14.924699",
+     "duration": 0.010816,
+     "end_time": "2024-08-29T15:46:05.281207",
      "exception": false,
-     "start_time": "2024-08-30T08:56:14.907944",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Dapatkan info statistik yang mendeskripsikan dataframe house_price"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "b39d30b8",
-   "metadata": {
-    "papermill": {
-     "duration": 0.01688,
-     "end_time": "2024-08-30T08:56:14.958722",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:14.941842",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### "
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "62f6f625",
-   "metadata": {
-    "papermill": {
-     "duration": 0.01702,
-     "end_time": "2024-08-30T08:56:14.992886",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:14.975866",
+     "start_time": "2024-08-29T15:46:05.270391",
      "status": "completed"
     },
     "tags": []
@@ -568,19 +500,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "15d75f5e",
+   "id": "50ab9385",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:15.028936Z",
-     "iopub.status.busy": "2024-08-30T08:56:15.028624Z",
-     "iopub.status.idle": "2024-08-30T08:56:15.034789Z",
-     "shell.execute_reply": "2024-08-30T08:56:15.033865Z"
+     "iopub.execute_input": "2024-08-29T15:46:05.304446Z",
+     "iopub.status.busy": "2024-08-29T15:46:05.303928Z",
+     "iopub.status.idle": "2024-08-29T15:46:05.309683Z",
+     "shell.execute_reply": "2024-08-29T15:46:05.308802Z"
     },
     "papermill": {
-     "duration": 0.026722,
-     "end_time": "2024-08-30T08:56:15.036918",
+     "duration": 0.019475,
+     "end_time": "2024-08-29T15:46:05.311617",
      "exception": false,
-     "start_time": "2024-08-30T08:56:15.010196",
+     "start_time": "2024-08-29T15:46:05.292142",
      "status": "completed"
     },
     "tags": []
@@ -599,38 +531,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "e4b8694c",
-   "metadata": {
-    "papermill": {
-     "duration": 0.017344,
-     "end_time": "2024-08-30T08:56:15.071611",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:15.054267",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Buatkan function untuk pengecekan nilai null"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "06ea7479",
+   "id": "3bbfa30d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:15.107964Z",
-     "iopub.status.busy": "2024-08-30T08:56:15.107311Z",
-     "iopub.status.idle": "2024-08-30T08:56:15.113040Z",
-     "shell.execute_reply": "2024-08-30T08:56:15.112173Z"
+     "iopub.execute_input": "2024-08-29T15:46:05.334989Z",
+     "iopub.status.busy": "2024-08-29T15:46:05.334485Z",
+     "iopub.status.idle": "2024-08-29T15:46:05.339813Z",
+     "shell.execute_reply": "2024-08-29T15:46:05.338965Z"
     },
     "papermill": {
-     "duration": 0.026192,
-     "end_time": "2024-08-30T08:56:15.115296",
+     "duration": 0.019032,
+     "end_time": "2024-08-29T15:46:05.341628",
      "exception": false,
-     "start_time": "2024-08-30T08:56:15.089104",
+     "start_time": "2024-08-29T15:46:05.322596",
      "status": "completed"
     },
     "tags": []
@@ -655,38 +570,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "c0bd7516",
-   "metadata": {
-    "papermill": {
-     "duration": 0.017885,
-     "end_time": "2024-08-30T08:56:15.150707",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:15.132822",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Buat function untuk pengecekan outlier"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "10d5412f",
+   "id": "2f4feb3a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:15.189497Z",
-     "iopub.status.busy": "2024-08-30T08:56:15.188551Z",
-     "iopub.status.idle": "2024-08-30T08:56:15.195165Z",
-     "shell.execute_reply": "2024-08-30T08:56:15.194154Z"
+     "iopub.execute_input": "2024-08-29T15:46:05.364788Z",
+     "iopub.status.busy": "2024-08-29T15:46:05.364515Z",
+     "iopub.status.idle": "2024-08-29T15:46:05.369875Z",
+     "shell.execute_reply": "2024-08-29T15:46:05.369074Z"
     },
     "papermill": {
-     "duration": 0.028308,
-     "end_time": "2024-08-30T08:56:15.197557",
+     "duration": 0.019004,
+     "end_time": "2024-08-29T15:46:05.371724",
      "exception": false,
-     "start_time": "2024-08-30T08:56:15.169249",
+     "start_time": "2024-08-29T15:46:05.352720",
      "status": "completed"
     },
     "tags": []
@@ -706,38 +604,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "0248868d",
-   "metadata": {
-    "papermill": {
-     "duration": 0.018496,
-     "end_time": "2024-08-30T08:56:15.234129",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:15.215633",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Buat function untuk Mengevaluasi nilai prediksi dengan nilai sebenarnya"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "98eb9002",
+   "id": "274271c2",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:15.272758Z",
-     "iopub.status.busy": "2024-08-30T08:56:15.272382Z",
-     "iopub.status.idle": "2024-08-30T08:56:15.280232Z",
-     "shell.execute_reply": "2024-08-30T08:56:15.279214Z"
+     "iopub.execute_input": "2024-08-29T15:46:05.395184Z",
+     "iopub.status.busy": "2024-08-29T15:46:05.394616Z",
+     "iopub.status.idle": "2024-08-29T15:46:05.401711Z",
+     "shell.execute_reply": "2024-08-29T15:46:05.400875Z"
     },
     "papermill": {
-     "duration": 0.030967,
-     "end_time": "2024-08-30T08:56:15.283258",
+     "duration": 0.021219,
+     "end_time": "2024-08-29T15:46:05.403923",
      "exception": false,
-     "start_time": "2024-08-30T08:56:15.252291",
+     "start_time": "2024-08-29T15:46:05.382704",
      "status": "completed"
     },
     "tags": []
@@ -757,55 +638,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0076eb36",
+   "id": "59d2e16f",
    "metadata": {
     "papermill": {
-     "duration": 0.018637,
-     "end_time": "2024-08-30T08:56:15.322236",
+     "duration": 0.01099,
+     "end_time": "2024-08-29T15:46:05.426570",
      "exception": false,
-     "start_time": "2024-08-30T08:56:15.303599",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "### Cek Kehadiran Null pada Dataframe House_price"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 9,
-   "id": "ed7adf15",
-   "metadata": {
-    "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:15.361406Z",
-     "iopub.status.busy": "2024-08-30T08:56:15.360772Z",
-     "iopub.status.idle": "2024-08-30T08:56:15.366562Z",
-     "shell.execute_reply": "2024-08-30T08:56:15.365492Z"
-    },
-    "papermill": {
-     "duration": 0.027839,
-     "end_time": "2024-08-30T08:56:15.368814",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:15.340975",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "outputs": [],
-   "source": [
-    "house_df = house_df.drop(['NO'], axis=1)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "1c9a9fbf",
-   "metadata": {
-    "papermill": {
-     "duration": 0.018231,
-     "end_time": "2024-08-30T08:56:15.405750",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:15.387519",
+     "start_time": "2024-08-29T15:46:05.415580",
      "status": "completed"
     },
     "tags": []
@@ -816,20 +655,45 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
-   "id": "3da4aa0d",
+   "execution_count": 9,
+   "id": "2373384d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:15.443981Z",
-     "iopub.status.busy": "2024-08-30T08:56:15.443289Z",
-     "iopub.status.idle": "2024-08-30T08:56:15.447996Z",
-     "shell.execute_reply": "2024-08-30T08:56:15.446985Z"
+     "iopub.execute_input": "2024-08-29T15:46:05.450958Z",
+     "iopub.status.busy": "2024-08-29T15:46:05.450315Z",
+     "iopub.status.idle": "2024-08-29T15:46:05.455307Z",
+     "shell.execute_reply": "2024-08-29T15:46:05.454396Z"
     },
     "papermill": {
-     "duration": 0.026166,
-     "end_time": "2024-08-30T08:56:15.450170",
+     "duration": 0.01978,
+     "end_time": "2024-08-29T15:46:05.457404",
      "exception": false,
-     "start_time": "2024-08-30T08:56:15.424004",
+     "start_time": "2024-08-29T15:46:05.437624",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "house_df = house_df.drop(['NO'], axis=1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "fe33387f",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-08-29T15:46:05.482155Z",
+     "iopub.status.busy": "2024-08-29T15:46:05.481888Z",
+     "iopub.status.idle": "2024-08-29T15:46:05.485828Z",
+     "shell.execute_reply": "2024-08-29T15:46:05.485006Z"
+    },
+    "papermill": {
+     "duration": 0.018193,
+     "end_time": "2024-08-29T15:46:05.487675",
+     "exception": false,
+     "start_time": "2024-08-29T15:46:05.469482",
      "status": "completed"
     },
     "tags": []
@@ -841,38 +705,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "b4f263b6",
-   "metadata": {
-    "papermill": {
-     "duration": 0.018051,
-     "end_time": "2024-08-30T08:56:15.486890",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:15.468839",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Klasifikasikan setiap atribut apakah numeric ataupun non numeric"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "d46077e4",
+   "id": "7fbc3c66",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:15.524040Z",
-     "iopub.status.busy": "2024-08-30T08:56:15.523303Z",
-     "iopub.status.idle": "2024-08-30T08:56:15.543964Z",
-     "shell.execute_reply": "2024-08-30T08:56:15.543029Z"
+     "iopub.execute_input": "2024-08-29T15:46:05.510952Z",
+     "iopub.status.busy": "2024-08-29T15:46:05.510639Z",
+     "iopub.status.idle": "2024-08-29T15:46:05.528879Z",
+     "shell.execute_reply": "2024-08-29T15:46:05.527892Z"
     },
     "papermill": {
-     "duration": 0.041523,
-     "end_time": "2024-08-30T08:56:15.546310",
+     "duration": 0.032574,
+     "end_time": "2024-08-29T15:46:05.531247",
      "exception": false,
-     "start_time": "2024-08-30T08:56:15.504787",
+     "start_time": "2024-08-29T15:46:05.498673",
      "status": "completed"
     },
     "tags": []
@@ -1053,38 +900,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "73aabfd8",
-   "metadata": {
-    "papermill": {
-     "duration": 0.017944,
-     "end_time": "2024-08-30T08:56:15.582110",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:15.564166",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Lakukan pengecekan outlier"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "6d79ac05",
+   "id": "8287ada7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:15.619759Z",
-     "iopub.status.busy": "2024-08-30T08:56:15.619404Z",
-     "iopub.status.idle": "2024-08-30T08:56:15.623634Z",
-     "shell.execute_reply": "2024-08-30T08:56:15.622693Z"
+     "iopub.execute_input": "2024-08-29T15:46:05.556514Z",
+     "iopub.status.busy": "2024-08-29T15:46:05.555882Z",
+     "iopub.status.idle": "2024-08-29T15:46:05.559681Z",
+     "shell.execute_reply": "2024-08-29T15:46:05.558892Z"
     },
     "papermill": {
-     "duration": 0.025426,
-     "end_time": "2024-08-30T08:56:15.625658",
+     "duration": 0.017964,
+     "end_time": "2024-08-29T15:46:05.561510",
      "exception": false,
-     "start_time": "2024-08-30T08:56:15.600232",
+     "start_time": "2024-08-29T15:46:05.543546",
      "status": "completed"
     },
     "tags": []
@@ -1102,38 +932,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "77a01296",
-   "metadata": {
-    "papermill": {
-     "duration": 0.018039,
-     "end_time": "2024-08-30T08:56:15.661863",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:15.643824",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Lakukan eksperimen dengan menghilangkan ataupun tidak menghilangkan outlier, Berdasarkan hasil evaluasi lebih baik tidak menghilangkan outlier"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "cf179ad8",
+   "id": "be59def8",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:15.700513Z",
-     "iopub.status.busy": "2024-08-30T08:56:15.700159Z",
-     "iopub.status.idle": "2024-08-30T08:56:30.122540Z",
-     "shell.execute_reply": "2024-08-30T08:56:30.121471Z"
+     "iopub.execute_input": "2024-08-29T15:46:05.587899Z",
+     "iopub.status.busy": "2024-08-29T15:46:05.587583Z",
+     "iopub.status.idle": "2024-08-29T15:46:18.169405Z",
+     "shell.execute_reply": "2024-08-29T15:46:18.168555Z"
     },
     "papermill": {
-     "duration": 14.44826,
-     "end_time": "2024-08-30T08:56:30.128597",
+     "duration": 12.600859,
+     "end_time": "2024-08-29T15:46:18.175570",
      "exception": false,
-     "start_time": "2024-08-30T08:56:15.680337",
+     "start_time": "2024-08-29T15:46:05.574711",
      "status": "completed"
     },
     "tags": []
@@ -1182,52 +995,37 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a3376ab4",
+   "id": "ea785737",
    "metadata": {
     "papermill": {
-     "duration": 0.023109,
-     "end_time": "2024-08-30T08:56:30.175167",
+     "duration": 0.015854,
+     "end_time": "2024-08-29T15:46:18.208140",
      "exception": false,
-     "start_time": "2024-08-30T08:56:30.152058",
+     "start_time": "2024-08-29T15:46:18.192286",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "#### Lakukan pengecekan atribut non numeric, dikarenakan mayoritas nilai dari atribut NAMA RUMAH unik sehingga lebih baik dihapus untuk atribut NAMA RUMAH"
+    "### Dikarenakan terlalu unik untuk fitur nama maka lebih baik di drop"
    ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "488cc058",
-   "metadata": {
-    "papermill": {
-     "duration": 0.022265,
-     "end_time": "2024-08-30T08:56:30.220690",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:30.198425",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": []
   },
   {
    "cell_type": "code",
    "execution_count": 14,
-   "id": "7934e04a",
+   "id": "6030a363",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:30.268879Z",
-     "iopub.status.busy": "2024-08-30T08:56:30.268532Z",
-     "iopub.status.idle": "2024-08-30T08:56:30.274265Z",
-     "shell.execute_reply": "2024-08-30T08:56:30.273296Z"
+     "iopub.execute_input": "2024-08-29T15:46:18.241673Z",
+     "iopub.status.busy": "2024-08-29T15:46:18.241073Z",
+     "iopub.status.idle": "2024-08-29T15:46:18.246054Z",
+     "shell.execute_reply": "2024-08-29T15:46:18.245176Z"
     },
     "papermill": {
-     "duration": 0.032628,
-     "end_time": "2024-08-30T08:56:30.276566",
+     "duration": 0.023807,
+     "end_time": "2024-08-29T15:46:18.247889",
      "exception": false,
-     "start_time": "2024-08-30T08:56:30.243938",
+     "start_time": "2024-08-29T15:46:18.224082",
      "status": "completed"
     },
     "tags": []
@@ -1239,54 +1037,37 @@
   },
   {
    "cell_type": "markdown",
-   "id": "20a38177",
+   "id": "6f5c1407",
    "metadata": {
     "papermill": {
-     "duration": 0.023106,
-     "end_time": "2024-08-30T08:56:30.323288",
+     "duration": 0.015757,
+     "end_time": "2024-08-29T15:46:18.279417",
      "exception": false,
-     "start_time": "2024-08-30T08:56:30.300182",
+     "start_time": "2024-08-29T15:46:18.263660",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "#### Dikarenakan terlalu unik untuk fitur nama maka lebih baik di drop"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "ad5465fd",
-   "metadata": {
-    "papermill": {
-     "duration": 0.022824,
-     "end_time": "2024-08-30T08:56:30.368982",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:30.346158",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "## Univariate Data Analysis"
+    "### Univariate Data Analysis"
    ]
   },
   {
    "cell_type": "code",
    "execution_count": 15,
-   "id": "16b36717",
+   "id": "af8e9e8b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:30.416684Z",
-     "iopub.status.busy": "2024-08-30T08:56:30.416031Z",
-     "iopub.status.idle": "2024-08-30T08:56:32.360370Z",
-     "shell.execute_reply": "2024-08-30T08:56:32.359276Z"
+     "iopub.execute_input": "2024-08-29T15:46:18.312814Z",
+     "iopub.status.busy": "2024-08-29T15:46:18.312499Z",
+     "iopub.status.idle": "2024-08-29T15:46:20.090141Z",
+     "shell.execute_reply": "2024-08-29T15:46:20.089177Z"
     },
     "papermill": {
-     "duration": 1.970999,
-     "end_time": "2024-08-30T08:56:32.362506",
+     "duration": 1.796721,
+     "end_time": "2024-08-29T15:46:20.092148",
      "exception": false,
-     "start_time": "2024-08-30T08:56:30.391507",
+     "start_time": "2024-08-29T15:46:18.295427",
      "status": "completed"
     },
     "tags": []
@@ -1310,54 +1091,37 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b699446a",
+   "id": "6c9c41fd",
    "metadata": {
     "papermill": {
-     "duration": 0.024694,
-     "end_time": "2024-08-30T08:56:32.412650",
+     "duration": 0.016769,
+     "end_time": "2024-08-29T15:46:20.126391",
      "exception": false,
-     "start_time": "2024-08-30T08:56:32.387956",
+     "start_time": "2024-08-29T15:46:20.109622",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "#### Lakukan univariate analysis untuk melihat distribusi nilai untuk setiap variabel secara independen"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "88428575",
-   "metadata": {
-    "papermill": {
-     "duration": 0.024551,
-     "end_time": "2024-08-30T08:56:32.462171",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:32.437620",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "## Multivariate Data Analysis"
+    "### Multivariate Data Analysis"
    ]
   },
   {
    "cell_type": "code",
    "execution_count": 16,
-   "id": "67753cb6",
+   "id": "2f0c4232",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:32.549566Z",
-     "iopub.status.busy": "2024-08-30T08:56:32.548830Z",
-     "iopub.status.idle": "2024-08-30T08:56:44.336680Z",
-     "shell.execute_reply": "2024-08-30T08:56:44.335681Z"
+     "iopub.execute_input": "2024-08-29T15:46:20.161872Z",
+     "iopub.status.busy": "2024-08-29T15:46:20.161518Z",
+     "iopub.status.idle": "2024-08-29T15:46:30.634812Z",
+     "shell.execute_reply": "2024-08-29T15:46:30.633983Z"
     },
     "papermill": {
-     "duration": 11.819454,
-     "end_time": "2024-08-30T08:56:44.342508",
+     "duration": 10.496803,
+     "end_time": "2024-08-29T15:46:30.640114",
      "exception": false,
-     "start_time": "2024-08-30T08:56:32.523054",
+     "start_time": "2024-08-29T15:46:20.143311",
      "status": "completed"
     },
     "tags": []
@@ -1384,7 +1148,7 @@
     {
      "data": {
       "text/plain": [
-       "<seaborn.axisgrid.PairGrid at 0x7fb26ca792d0>"
+       "<seaborn.axisgrid.PairGrid at 0x7a6431289ff0>"
       ]
      },
      "execution_count": 16,
@@ -1407,38 +1171,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "60af2e3a",
-   "metadata": {
-    "papermill": {
-     "duration": 0.030058,
-     "end_time": "2024-08-30T08:56:44.404772",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:44.374714",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Lakukan Multivariate Analysis untuk melihat keterkaitan hubungan antar variabel "
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 17,
-   "id": "f9a9746d",
+   "id": "7ad1eca6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:44.466542Z",
-     "iopub.status.busy": "2024-08-30T08:56:44.466132Z",
-     "iopub.status.idle": "2024-08-30T08:56:44.899556Z",
-     "shell.execute_reply": "2024-08-30T08:56:44.898519Z"
+     "iopub.execute_input": "2024-08-29T15:46:30.686687Z",
+     "iopub.status.busy": "2024-08-29T15:46:30.685824Z",
+     "iopub.status.idle": "2024-08-29T15:46:31.070563Z",
+     "shell.execute_reply": "2024-08-29T15:46:31.069632Z"
     },
     "papermill": {
-     "duration": 0.467137,
-     "end_time": "2024-08-30T08:56:44.901994",
+     "duration": 0.410386,
+     "end_time": "2024-08-29T15:46:31.073000",
      "exception": false,
-     "start_time": "2024-08-30T08:56:44.434857",
+     "start_time": "2024-08-29T15:46:30.662614",
      "status": "completed"
     },
     "tags": []
@@ -1464,30 +1211,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "7f523fd1",
+   "id": "5954ce72",
    "metadata": {
     "papermill": {
-     "duration": 0.030422,
-     "end_time": "2024-08-30T08:56:44.963797",
+     "duration": 0.022653,
+     "end_time": "2024-08-29T15:46:31.119392",
      "exception": false,
-     "start_time": "2024-08-30T08:56:44.933375",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Berdasarkan kedua plot tersebut baik heatmap atau plot diatas dapat dilihat bahwa atribut LT (luas tanah) paling mempengaruhi harga properti dimana semakin besar nilai LUAS TANAH maka semakin besar harga properti"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "41a9a49b",
-   "metadata": {
-    "papermill": {
-     "duration": 0.029843,
-     "end_time": "2024-08-30T08:56:45.023574",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:44.993731",
+     "start_time": "2024-08-29T15:46:31.096739",
      "status": "completed"
     },
     "tags": []
@@ -1499,19 +1229,19 @@
   {
    "cell_type": "code",
    "execution_count": 18,
-   "id": "665d3341",
+   "id": "639273ca",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:45.085678Z",
-     "iopub.status.busy": "2024-08-30T08:56:45.084957Z",
-     "iopub.status.idle": "2024-08-30T08:56:45.304420Z",
-     "shell.execute_reply": "2024-08-30T08:56:45.303354Z"
+     "iopub.execute_input": "2024-08-29T15:46:31.166274Z",
+     "iopub.status.busy": "2024-08-29T15:46:31.165949Z",
+     "iopub.status.idle": "2024-08-29T15:46:31.402676Z",
+     "shell.execute_reply": "2024-08-29T15:46:31.401870Z"
     },
     "papermill": {
-     "duration": 0.253616,
-     "end_time": "2024-08-30T08:56:45.307253",
+     "duration": 0.263063,
+     "end_time": "2024-08-29T15:46:31.405118",
      "exception": false,
-     "start_time": "2024-08-30T08:56:45.053637",
+     "start_time": "2024-08-29T15:46:31.142055",
      "status": "completed"
     },
     "tags": []
@@ -1526,38 +1256,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "d6ab65da",
-   "metadata": {
-    "papermill": {
-     "duration": 0.030191,
-     "end_time": "2024-08-30T08:56:45.370219",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:45.340028",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Lakukan split training dengan memisahkan atribut harga dengan atribut lainnya"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 19,
-   "id": "342fd2cf",
+   "id": "6cc6f874",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:45.433454Z",
-     "iopub.status.busy": "2024-08-30T08:56:45.433097Z",
-     "iopub.status.idle": "2024-08-30T08:56:45.442986Z",
-     "shell.execute_reply": "2024-08-30T08:56:45.442092Z"
+     "iopub.execute_input": "2024-08-29T15:46:31.453316Z",
+     "iopub.status.busy": "2024-08-29T15:46:31.452954Z",
+     "iopub.status.idle": "2024-08-29T15:46:31.462815Z",
+     "shell.execute_reply": "2024-08-29T15:46:31.462093Z"
     },
     "papermill": {
-     "duration": 0.043642,
-     "end_time": "2024-08-30T08:56:45.445051",
+     "duration": 0.035901,
+     "end_time": "2024-08-29T15:46:31.464898",
      "exception": false,
-     "start_time": "2024-08-30T08:56:45.401409",
+     "start_time": "2024-08-29T15:46:31.428997",
      "status": "completed"
     },
     "tags": []
@@ -1573,38 +1286,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "85c13ccc",
-   "metadata": {
-    "papermill": {
-     "duration": 0.030455,
-     "end_time": "2024-08-30T08:56:45.506052",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:45.475597",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Lakukan standarisasi dengan standardscaler untuk menormalisasikan nilai "
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 20,
-   "id": "31e1562e",
+   "id": "313dc768",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:45.568679Z",
-     "iopub.status.busy": "2024-08-30T08:56:45.568022Z",
-     "iopub.status.idle": "2024-08-30T08:56:45.573818Z",
-     "shell.execute_reply": "2024-08-30T08:56:45.572752Z"
+     "iopub.execute_input": "2024-08-29T15:46:31.512713Z",
+     "iopub.status.busy": "2024-08-29T15:46:31.512422Z",
+     "iopub.status.idle": "2024-08-29T15:46:31.517728Z",
+     "shell.execute_reply": "2024-08-29T15:46:31.516874Z"
     },
     "papermill": {
-     "duration": 0.039492,
-     "end_time": "2024-08-30T08:56:45.576109",
+     "duration": 0.031387,
+     "end_time": "2024-08-29T15:46:31.519722",
      "exception": false,
-     "start_time": "2024-08-30T08:56:45.536617",
+     "start_time": "2024-08-29T15:46:31.488335",
      "status": "completed"
     },
     "tags": []
@@ -1617,30 +1313,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "21ff0ac2",
+   "id": "3025829e",
    "metadata": {
     "papermill": {
-     "duration": 0.030971,
-     "end_time": "2024-08-30T08:56:45.637382",
+     "duration": 0.02275,
+     "end_time": "2024-08-29T15:46:31.565992",
      "exception": false,
-     "start_time": "2024-08-30T08:56:45.606411",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Buat dataframe untuk menampung hasil evaluasi setiap model"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "b8e890f5",
-   "metadata": {
-    "papermill": {
-     "duration": 0.030899,
-     "end_time": "2024-08-30T08:56:45.698934",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:45.668035",
+     "start_time": "2024-08-29T15:46:31.543242",
      "status": "completed"
     },
     "tags": []
@@ -1651,13 +1330,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "30d7911a",
+   "id": "60fdd5f6",
    "metadata": {
     "papermill": {
-     "duration": 0.031874,
-     "end_time": "2024-08-30T08:56:45.766304",
+     "duration": 0.023443,
+     "end_time": "2024-08-29T15:46:31.612972",
      "exception": false,
-     "start_time": "2024-08-30T08:56:45.734430",
+     "start_time": "2024-08-29T15:46:31.589529",
      "status": "completed"
     },
     "tags": []
@@ -1669,19 +1348,19 @@
   {
    "cell_type": "code",
    "execution_count": 21,
-   "id": "2832697a",
+   "id": "7d84580b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:45.830046Z",
-     "iopub.status.busy": "2024-08-30T08:56:45.829317Z",
-     "iopub.status.idle": "2024-08-30T08:56:45.834331Z",
-     "shell.execute_reply": "2024-08-30T08:56:45.833419Z"
+     "iopub.execute_input": "2024-08-29T15:46:31.659938Z",
+     "iopub.status.busy": "2024-08-29T15:46:31.659592Z",
+     "iopub.status.idle": "2024-08-29T15:46:31.664293Z",
+     "shell.execute_reply": "2024-08-29T15:46:31.663428Z"
     },
     "papermill": {
-     "duration": 0.038864,
-     "end_time": "2024-08-30T08:56:45.836269",
+     "duration": 0.030271,
+     "end_time": "2024-08-29T15:46:31.666271",
      "exception": false,
-     "start_time": "2024-08-30T08:56:45.797405",
+     "start_time": "2024-08-29T15:46:31.636000",
      "status": "completed"
     },
     "tags": []
@@ -1696,38 +1375,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "ae955654",
-   "metadata": {
-    "papermill": {
-     "duration": 0.034626,
-     "end_time": "2024-08-30T08:56:45.900783",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:45.866157",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Import library untuk KNN"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 22,
-   "id": "16b118e4",
+   "id": "51f0591c",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:45.977305Z",
-     "iopub.status.busy": "2024-08-30T08:56:45.976383Z",
-     "iopub.status.idle": "2024-08-30T08:56:46.389966Z",
-     "shell.execute_reply": "2024-08-30T08:56:46.388478Z"
+     "iopub.execute_input": "2024-08-29T15:46:31.712446Z",
+     "iopub.status.busy": "2024-08-29T15:46:31.712150Z",
+     "iopub.status.idle": "2024-08-29T15:46:32.102735Z",
+     "shell.execute_reply": "2024-08-29T15:46:32.101670Z"
     },
     "papermill": {
-     "duration": 0.453375,
-     "end_time": "2024-08-30T08:56:46.392324",
+     "duration": 0.416112,
+     "end_time": "2024-08-29T15:46:32.104746",
      "exception": false,
-     "start_time": "2024-08-30T08:56:45.938949",
+     "start_time": "2024-08-29T15:46:31.688634",
      "status": "completed"
     },
     "tags": []
@@ -1859,38 +1521,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "72fb1eaa",
-   "metadata": {
-    "papermill": {
-     "duration": 0.031456,
-     "end_time": "2024-08-30T08:56:46.458068",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:46.426612",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Lakukan training untuk KNN dengan bantuan gridsearch cv dan lihat hasil evaluasi validation dengan bantuan function regression_metrics"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 23,
-   "id": "60455eac",
+   "id": "448954d1",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:46.522458Z",
-     "iopub.status.busy": "2024-08-30T08:56:46.521802Z",
-     "iopub.status.idle": "2024-08-30T08:56:46.534193Z",
-     "shell.execute_reply": "2024-08-30T08:56:46.533066Z"
+     "iopub.execute_input": "2024-08-29T15:46:32.152959Z",
+     "iopub.status.busy": "2024-08-29T15:46:32.152614Z",
+     "iopub.status.idle": "2024-08-29T15:46:32.163581Z",
+     "shell.execute_reply": "2024-08-29T15:46:32.162648Z"
     },
     "papermill": {
-     "duration": 0.047293,
-     "end_time": "2024-08-30T08:56:46.536830",
+     "duration": 0.037052,
+     "end_time": "2024-08-29T15:46:32.165591",
      "exception": false,
-     "start_time": "2024-08-30T08:56:46.489537",
+     "start_time": "2024-08-29T15:46:32.128539",
      "status": "completed"
     },
     "tags": []
@@ -1902,30 +1547,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "36772097",
+   "id": "c5ba7087",
    "metadata": {
     "papermill": {
-     "duration": 0.030106,
-     "end_time": "2024-08-30T08:56:46.598754",
+     "duration": 0.023104,
+     "end_time": "2024-08-29T15:46:32.211463",
      "exception": false,
-     "start_time": "2024-08-30T08:56:46.568648",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Simpan hasil evaluasi mse training pada models evaluasi"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "72d6eb38",
-   "metadata": {
-    "papermill": {
-     "duration": 0.030738,
-     "end_time": "2024-08-30T08:56:46.659980",
-     "exception": false,
-     "start_time": "2024-08-30T08:56:46.629242",
+     "start_time": "2024-08-29T15:46:32.188359",
      "status": "completed"
     },
     "tags": []
@@ -1937,19 +1565,19 @@
   {
    "cell_type": "code",
    "execution_count": 24,
-   "id": "c8fc47ca",
+   "id": "285fee9e",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:56:46.723964Z",
-     "iopub.status.busy": "2024-08-30T08:56:46.723604Z",
-     "iopub.status.idle": "2024-08-30T08:58:04.673546Z",
-     "shell.execute_reply": "2024-08-30T08:58:04.671878Z"
+     "iopub.execute_input": "2024-08-29T15:46:32.259515Z",
+     "iopub.status.busy": "2024-08-29T15:46:32.258901Z",
+     "iopub.status.idle": "2024-08-29T15:47:41.550416Z",
+     "shell.execute_reply": "2024-08-29T15:47:41.549046Z"
     },
     "papermill": {
-     "duration": 77.985398,
-     "end_time": "2024-08-30T08:58:04.676003",
+     "duration": 69.318256,
+     "end_time": "2024-08-29T15:47:41.552794",
      "exception": false,
-     "start_time": "2024-08-30T08:56:46.690605",
+     "start_time": "2024-08-29T15:46:32.234538",
      "status": "completed"
     },
     "tags": []
@@ -1962,169 +1590,169 @@
       "Tuning hyper-parameters for Random Forest Regression\n",
       "\n",
       "Fitting 5 folds for each of 32 candidates, totalling 160 fits\n",
-      "[CV] END ....bootstrap=True, max_depth=None, n_estimators=50; total time=   0.2s\n",
-      "[CV] END ....bootstrap=True, max_depth=None, n_estimators=50; total time=   0.2s\n",
       "[CV] END ....bootstrap=True, max_depth=None, n_estimators=50; total time=   0.1s\n",
-      "[CV] END ....bootstrap=True, max_depth=None, n_estimators=50; total time=   0.2s\n",
-      "[CV] END ....bootstrap=True, max_depth=None, n_estimators=50; total time=   0.2s\n",
+      "[CV] END ....bootstrap=True, max_depth=None, n_estimators=50; total time=   0.1s\n",
+      "[CV] END ....bootstrap=True, max_depth=None, n_estimators=50; total time=   0.1s\n",
+      "[CV] END ....bootstrap=True, max_depth=None, n_estimators=50; total time=   0.1s\n",
+      "[CV] END ....bootstrap=True, max_depth=None, n_estimators=50; total time=   0.1s\n",
       "[CV] END ...bootstrap=True, max_depth=None, n_estimators=100; total time=   0.3s\n",
       "[CV] END ...bootstrap=True, max_depth=None, n_estimators=100; total time=   0.3s\n",
       "[CV] END ...bootstrap=True, max_depth=None, n_estimators=100; total time=   0.3s\n",
       "[CV] END ...bootstrap=True, max_depth=None, n_estimators=100; total time=   0.3s\n",
       "[CV] END ...bootstrap=True, max_depth=None, n_estimators=100; total time=   0.3s\n",
+      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=200; total time=   0.5s\n",
+      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=200; total time=   0.5s\n",
       "[CV] END ...bootstrap=True, max_depth=None, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=300; total time=   0.9s\n",
+      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=200; total time=   0.5s\n",
+      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=200; total time=   0.5s\n",
+      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ...bootstrap=True, max_depth=None, n_estimators=300; total time=   0.8s\n",
       "[CV] END ......bootstrap=True, max_depth=10, n_estimators=50; total time=   0.1s\n",
       "[CV] END ......bootstrap=True, max_depth=10, n_estimators=50; total time=   0.1s\n",
       "[CV] END ......bootstrap=True, max_depth=10, n_estimators=50; total time=   0.1s\n",
       "[CV] END ......bootstrap=True, max_depth=10, n_estimators=50; total time=   0.1s\n",
       "[CV] END ......bootstrap=True, max_depth=10, n_estimators=50; total time=   0.1s\n",
-      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=100; total time=   0.3s\n",
-      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=100; total time=   0.3s\n",
-      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=100; total time=   0.3s\n",
-      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=100; total time=   0.3s\n",
-      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=100; total time=   0.3s\n",
+      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=100; total time=   0.2s\n",
+      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=100; total time=   0.2s\n",
+      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=100; total time=   0.2s\n",
+      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=100; total time=   0.2s\n",
+      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=100; total time=   0.2s\n",
       "[CV] END .....bootstrap=True, max_depth=10, n_estimators=200; total time=   0.5s\n",
-      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=200; total time=   0.6s\n",
       "[CV] END .....bootstrap=True, max_depth=10, n_estimators=200; total time=   0.5s\n",
-      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=200; total time=   0.6s\n",
       "[CV] END .....bootstrap=True, max_depth=10, n_estimators=200; total time=   0.5s\n",
-      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=300; total time=   0.8s\n",
-      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=300; total time=   0.8s\n",
-      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=300; total time=   0.8s\n",
-      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=300; total time=   0.8s\n",
-      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=300; total time=   0.8s\n",
-      "[CV] END ......bootstrap=True, max_depth=20, n_estimators=50; total time=   0.2s\n",
-      "[CV] END ......bootstrap=True, max_depth=20, n_estimators=50; total time=   0.2s\n",
-      "[CV] END ......bootstrap=True, max_depth=20, n_estimators=50; total time=   0.2s\n",
-      "[CV] END ......bootstrap=True, max_depth=20, n_estimators=50; total time=   0.2s\n",
-      "[CV] END ......bootstrap=True, max_depth=20, n_estimators=50; total time=   0.2s\n",
+      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=200; total time=   0.5s\n",
+      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=200; total time=   0.5s\n",
+      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=300; total time=   0.7s\n",
+      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=300; total time=   0.7s\n",
+      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=300; total time=   0.7s\n",
+      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=300; total time=   0.7s\n",
+      "[CV] END .....bootstrap=True, max_depth=10, n_estimators=300; total time=   0.7s\n",
+      "[CV] END ......bootstrap=True, max_depth=20, n_estimators=50; total time=   0.1s\n",
+      "[CV] END ......bootstrap=True, max_depth=20, n_estimators=50; total time=   0.1s\n",
+      "[CV] END ......bootstrap=True, max_depth=20, n_estimators=50; total time=   0.1s\n",
+      "[CV] END ......bootstrap=True, max_depth=20, n_estimators=50; total time=   0.1s\n",
+      "[CV] END ......bootstrap=True, max_depth=20, n_estimators=50; total time=   0.1s\n",
       "[CV] END .....bootstrap=True, max_depth=20, n_estimators=100; total time=   0.3s\n",
       "[CV] END .....bootstrap=True, max_depth=20, n_estimators=100; total time=   0.3s\n",
       "[CV] END .....bootstrap=True, max_depth=20, n_estimators=100; total time=   0.3s\n",
       "[CV] END .....bootstrap=True, max_depth=20, n_estimators=100; total time=   0.3s\n",
       "[CV] END .....bootstrap=True, max_depth=20, n_estimators=100; total time=   0.3s\n",
-      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=200; total time=   0.6s\n",
-      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=200; total time=   0.7s\n",
-      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=200; total time=   0.6s\n",
-      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=200; total time=   0.6s\n",
-      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=200; total time=   0.6s\n",
+      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=200; total time=   0.5s\n",
+      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=200; total time=   0.5s\n",
+      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=200; total time=   0.5s\n",
+      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=200; total time=   0.5s\n",
+      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=200; total time=   0.5s\n",
+      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=300; total time=   0.8s\n",
+      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=300; total time=   0.8s\n",
       "[CV] END .....bootstrap=True, max_depth=20, n_estimators=300; total time=   0.9s\n",
-      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=300; total time=   0.9s\n",
-      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=300; total time=   0.9s\n",
-      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=300; total time=   0.9s\n",
-      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ......bootstrap=True, max_depth=30, n_estimators=50; total time=   0.2s\n",
-      "[CV] END ......bootstrap=True, max_depth=30, n_estimators=50; total time=   0.2s\n",
-      "[CV] END ......bootstrap=True, max_depth=30, n_estimators=50; total time=   0.2s\n",
-      "[CV] END ......bootstrap=True, max_depth=30, n_estimators=50; total time=   0.2s\n",
-      "[CV] END ......bootstrap=True, max_depth=30, n_estimators=50; total time=   0.2s\n",
+      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=300; total time=   0.8s\n",
+      "[CV] END .....bootstrap=True, max_depth=20, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ......bootstrap=True, max_depth=30, n_estimators=50; total time=   0.1s\n",
+      "[CV] END ......bootstrap=True, max_depth=30, n_estimators=50; total time=   0.1s\n",
+      "[CV] END ......bootstrap=True, max_depth=30, n_estimators=50; total time=   0.1s\n",
+      "[CV] END ......bootstrap=True, max_depth=30, n_estimators=50; total time=   0.1s\n",
+      "[CV] END ......bootstrap=True, max_depth=30, n_estimators=50; total time=   0.1s\n",
       "[CV] END .....bootstrap=True, max_depth=30, n_estimators=100; total time=   0.3s\n",
       "[CV] END .....bootstrap=True, max_depth=30, n_estimators=100; total time=   0.3s\n",
       "[CV] END .....bootstrap=True, max_depth=30, n_estimators=100; total time=   0.3s\n",
       "[CV] END .....bootstrap=True, max_depth=30, n_estimators=100; total time=   0.3s\n",
       "[CV] END .....bootstrap=True, max_depth=30, n_estimators=100; total time=   0.3s\n",
-      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=200; total time=   0.6s\n",
-      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=200; total time=   0.6s\n",
-      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=200; total time=   0.6s\n",
-      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=200; total time=   0.6s\n",
-      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=200; total time=   0.6s\n",
+      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=200; total time=   0.5s\n",
+      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=200; total time=   0.5s\n",
+      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=200; total time=   0.5s\n",
+      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=200; total time=   0.5s\n",
+      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=200; total time=   0.5s\n",
+      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=300; total time=   0.8s\n",
+      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=300; total time=   0.8s\n",
       "[CV] END .....bootstrap=True, max_depth=30, n_estimators=300; total time=   0.9s\n",
       "[CV] END .....bootstrap=True, max_depth=30, n_estimators=300; total time=   0.9s\n",
-      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=300; total time=   0.9s\n",
-      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=300; total time=   0.9s\n",
-      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ...bootstrap=False, max_depth=None, n_estimators=50; total time=   0.2s\n",
-      "[CV] END ...bootstrap=False, max_depth=None, n_estimators=50; total time=   0.2s\n",
-      "[CV] END ...bootstrap=False, max_depth=None, n_estimators=50; total time=   0.2s\n",
-      "[CV] END ...bootstrap=False, max_depth=None, n_estimators=50; total time=   0.2s\n",
-      "[CV] END ...bootstrap=False, max_depth=None, n_estimators=50; total time=   0.2s\n",
+      "[CV] END .....bootstrap=True, max_depth=30, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ...bootstrap=False, max_depth=None, n_estimators=50; total time=   0.1s\n",
+      "[CV] END ...bootstrap=False, max_depth=None, n_estimators=50; total time=   0.1s\n",
+      "[CV] END ...bootstrap=False, max_depth=None, n_estimators=50; total time=   0.1s\n",
+      "[CV] END ...bootstrap=False, max_depth=None, n_estimators=50; total time=   0.1s\n",
+      "[CV] END ...bootstrap=False, max_depth=None, n_estimators=50; total time=   0.1s\n",
       "[CV] END ..bootstrap=False, max_depth=None, n_estimators=100; total time=   0.3s\n",
       "[CV] END ..bootstrap=False, max_depth=None, n_estimators=100; total time=   0.3s\n",
       "[CV] END ..bootstrap=False, max_depth=None, n_estimators=100; total time=   0.3s\n",
       "[CV] END ..bootstrap=False, max_depth=None, n_estimators=100; total time=   0.3s\n",
       "[CV] END ..bootstrap=False, max_depth=None, n_estimators=100; total time=   0.3s\n",
-      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=300; total time=   0.9s\n",
+      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=200; total time=   0.5s\n",
+      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=200; total time=   0.5s\n",
+      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=200; total time=   0.5s\n",
+      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=200; total time=   0.5s\n",
+      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=200; total time=   0.5s\n",
+      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ..bootstrap=False, max_depth=None, n_estimators=300; total time=   0.8s\n",
       "[CV] END .....bootstrap=False, max_depth=10, n_estimators=50; total time=   0.1s\n",
       "[CV] END .....bootstrap=False, max_depth=10, n_estimators=50; total time=   0.1s\n",
       "[CV] END .....bootstrap=False, max_depth=10, n_estimators=50; total time=   0.1s\n",
       "[CV] END .....bootstrap=False, max_depth=10, n_estimators=50; total time=   0.1s\n",
       "[CV] END .....bootstrap=False, max_depth=10, n_estimators=50; total time=   0.1s\n",
-      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=100; total time=   0.3s\n",
-      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=100; total time=   0.3s\n",
-      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=100; total time=   0.3s\n",
-      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=100; total time=   0.3s\n",
-      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=100; total time=   0.3s\n",
+      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=100; total time=   0.2s\n",
+      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=100; total time=   0.2s\n",
+      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=100; total time=   0.2s\n",
+      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=100; total time=   0.2s\n",
+      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=100; total time=   0.2s\n",
+      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=200; total time=   0.4s\n",
+      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=200; total time=   0.4s\n",
+      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=200; total time=   0.4s\n",
       "[CV] END ....bootstrap=False, max_depth=10, n_estimators=200; total time=   0.5s\n",
-      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=200; total time=   0.5s\n",
-      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=200; total time=   0.5s\n",
-      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=200; total time=   0.5s\n",
-      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=200; total time=   0.5s\n",
-      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=300; total time=   0.8s\n",
-      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=300; total time=   0.8s\n",
-      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=300; total time=   0.8s\n",
-      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=300; total time=   0.8s\n",
-      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=300; total time=   0.8s\n",
-      "[CV] END .....bootstrap=False, max_depth=20, n_estimators=50; total time=   0.2s\n",
-      "[CV] END .....bootstrap=False, max_depth=20, n_estimators=50; total time=   0.2s\n",
-      "[CV] END .....bootstrap=False, max_depth=20, n_estimators=50; total time=   0.2s\n",
-      "[CV] END .....bootstrap=False, max_depth=20, n_estimators=50; total time=   0.2s\n",
-      "[CV] END .....bootstrap=False, max_depth=20, n_estimators=50; total time=   0.2s\n",
+      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=200; total time=   0.4s\n",
+      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=300; total time=   0.7s\n",
+      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=300; total time=   0.7s\n",
+      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=300; total time=   0.7s\n",
+      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=300; total time=   0.7s\n",
+      "[CV] END ....bootstrap=False, max_depth=10, n_estimators=300; total time=   0.7s\n",
+      "[CV] END .....bootstrap=False, max_depth=20, n_estimators=50; total time=   0.1s\n",
+      "[CV] END .....bootstrap=False, max_depth=20, n_estimators=50; total time=   0.1s\n",
+      "[CV] END .....bootstrap=False, max_depth=20, n_estimators=50; total time=   0.1s\n",
+      "[CV] END .....bootstrap=False, max_depth=20, n_estimators=50; total time=   0.1s\n",
+      "[CV] END .....bootstrap=False, max_depth=20, n_estimators=50; total time=   0.1s\n",
       "[CV] END ....bootstrap=False, max_depth=20, n_estimators=100; total time=   0.3s\n",
       "[CV] END ....bootstrap=False, max_depth=20, n_estimators=100; total time=   0.3s\n",
       "[CV] END ....bootstrap=False, max_depth=20, n_estimators=100; total time=   0.3s\n",
       "[CV] END ....bootstrap=False, max_depth=20, n_estimators=100; total time=   0.3s\n",
       "[CV] END ....bootstrap=False, max_depth=20, n_estimators=100; total time=   0.3s\n",
+      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=200; total time=   0.5s\n",
       "[CV] END ....bootstrap=False, max_depth=20, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=300; total time=   0.9s\n",
-      "[CV] END .....bootstrap=False, max_depth=30, n_estimators=50; total time=   0.2s\n",
-      "[CV] END .....bootstrap=False, max_depth=30, n_estimators=50; total time=   0.2s\n",
-      "[CV] END .....bootstrap=False, max_depth=30, n_estimators=50; total time=   0.2s\n",
-      "[CV] END .....bootstrap=False, max_depth=30, n_estimators=50; total time=   0.2s\n",
-      "[CV] END .....bootstrap=False, max_depth=30, n_estimators=50; total time=   0.2s\n",
+      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=200; total time=   0.5s\n",
+      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=200; total time=   0.5s\n",
+      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=200; total time=   0.5s\n",
+      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ....bootstrap=False, max_depth=20, n_estimators=300; total time=   0.8s\n",
+      "[CV] END .....bootstrap=False, max_depth=30, n_estimators=50; total time=   0.1s\n",
+      "[CV] END .....bootstrap=False, max_depth=30, n_estimators=50; total time=   0.1s\n",
+      "[CV] END .....bootstrap=False, max_depth=30, n_estimators=50; total time=   0.1s\n",
+      "[CV] END .....bootstrap=False, max_depth=30, n_estimators=50; total time=   0.1s\n",
+      "[CV] END .....bootstrap=False, max_depth=30, n_estimators=50; total time=   0.1s\n",
       "[CV] END ....bootstrap=False, max_depth=30, n_estimators=100; total time=   0.3s\n",
       "[CV] END ....bootstrap=False, max_depth=30, n_estimators=100; total time=   0.3s\n",
       "[CV] END ....bootstrap=False, max_depth=30, n_estimators=100; total time=   0.3s\n",
       "[CV] END ....bootstrap=False, max_depth=30, n_estimators=100; total time=   0.3s\n",
       "[CV] END ....bootstrap=False, max_depth=30, n_estimators=100; total time=   0.3s\n",
+      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=200; total time=   0.5s\n",
+      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=200; total time=   0.5s\n",
+      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=200; total time=   0.5s\n",
       "[CV] END ....bootstrap=False, max_depth=30, n_estimators=200; total time=   0.6s\n",
       "[CV] END ....bootstrap=False, max_depth=30, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=200; total time=   0.6s\n",
-      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=300; total time=   0.9s\n",
-      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=300; total time=   0.9s\n",
+      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=300; total time=   0.8s\n",
+      "[CV] END ....bootstrap=False, max_depth=30, n_estimators=300; total time=   0.8s\n",
       "\n",
       "Best parameters set found on development set:\n",
-      "{'bootstrap': True, 'max_depth': 20, 'n_estimators': 200}\n",
+      "{'bootstrap': True, 'max_depth': 30, 'n_estimators': 200}\n",
       "\n",
       "Detailed regression report:\n",
       "MAE: 1997499993.4363506\n",
@@ -2172,38 +1800,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "7f45238a",
-   "metadata": {
-    "papermill": {
-     "duration": 0.044833,
-     "end_time": "2024-08-30T08:58:04.766491",
-     "exception": false,
-     "start_time": "2024-08-30T08:58:04.721658",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Lakukan training untuk Random Forest dengan bantuan gridsearch cv dan lihat hasil evaluasi validation dengan bantuan function regression_metrics"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 25,
-   "id": "1d207864",
+   "id": "19c69f9e",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:58:04.853005Z",
-     "iopub.status.busy": "2024-08-30T08:58:04.852622Z",
-     "iopub.status.idle": "2024-08-30T08:58:04.889283Z",
-     "shell.execute_reply": "2024-08-30T08:58:04.888019Z"
+     "iopub.execute_input": "2024-08-29T15:47:41.631668Z",
+     "iopub.status.busy": "2024-08-29T15:47:41.631285Z",
+     "iopub.status.idle": "2024-08-29T15:47:41.668297Z",
+     "shell.execute_reply": "2024-08-29T15:47:41.667537Z"
     },
     "papermill": {
-     "duration": 0.08268,
-     "end_time": "2024-08-30T08:58:04.891362",
+     "duration": 0.078927,
+     "end_time": "2024-08-29T15:47:41.670611",
      "exception": false,
-     "start_time": "2024-08-30T08:58:04.808682",
+     "start_time": "2024-08-29T15:47:41.591684",
      "status": "completed"
     },
     "tags": []
@@ -2215,30 +1826,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "192cd78b",
+   "id": "41ef504f",
    "metadata": {
     "papermill": {
-     "duration": 0.041543,
-     "end_time": "2024-08-30T08:58:04.974541",
+     "duration": 0.033681,
+     "end_time": "2024-08-29T15:47:41.741468",
      "exception": false,
-     "start_time": "2024-08-30T08:58:04.932998",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Simpan hasil evaluasi mse training pada models evaluasi"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "09ffa4b3",
-   "metadata": {
-    "papermill": {
-     "duration": 0.041198,
-     "end_time": "2024-08-30T08:58:05.058268",
-     "exception": false,
-     "start_time": "2024-08-30T08:58:05.017070",
+     "start_time": "2024-08-29T15:47:41.707787",
      "status": "completed"
     },
     "tags": []
@@ -2250,19 +1844,19 @@
   {
    "cell_type": "code",
    "execution_count": 26,
-   "id": "87c80971",
+   "id": "b8cbde16",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:58:05.145395Z",
-     "iopub.status.busy": "2024-08-30T08:58:05.145010Z",
-     "iopub.status.idle": "2024-08-30T08:58:43.688728Z",
-     "shell.execute_reply": "2024-08-30T08:58:43.687637Z"
+     "iopub.execute_input": "2024-08-29T15:47:41.808542Z",
+     "iopub.status.busy": "2024-08-29T15:47:41.808196Z",
+     "iopub.status.idle": "2024-08-29T15:48:15.183809Z",
+     "shell.execute_reply": "2024-08-29T15:48:15.182650Z"
     },
     "papermill": {
-     "duration": 38.590285,
-     "end_time": "2024-08-30T08:58:43.691187",
+     "duration": 33.411492,
+     "end_time": "2024-08-29T15:48:15.185857",
      "exception": false,
-     "start_time": "2024-08-30T08:58:05.100902",
+     "start_time": "2024-08-29T15:47:41.774365",
      "status": "completed"
     },
     "tags": []
@@ -2301,10 +1895,10 @@
       "[CV] END learning_rate=0.01, max_depth=3, n_estimators=300, subsample=0.8; total time=   0.3s\n",
       "[CV] END learning_rate=0.01, max_depth=3, n_estimators=300, subsample=0.8; total time=   0.3s\n",
       "[CV] END learning_rate=0.01, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.3s\n",
+      "[CV] END learning_rate=0.01, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.2s\n",
+      "[CV] END learning_rate=0.01, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.2s\n",
       "[CV] END learning_rate=0.01, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.3s\n",
       "[CV] END learning_rate=0.01, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.3s\n",
-      "[CV] END learning_rate=0.01, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.3s\n",
-      "[CV] END learning_rate=0.01, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.3s\n",
       "[CV] END learning_rate=0.01, max_depth=4, n_estimators=100, subsample=0.8; total time=   0.1s\n",
       "[CV] END learning_rate=0.01, max_depth=4, n_estimators=100, subsample=0.8; total time=   0.1s\n",
       "[CV] END learning_rate=0.01, max_depth=4, n_estimators=100, subsample=0.8; total time=   0.1s\n",
@@ -2325,10 +1919,10 @@
       "[CV] END learning_rate=0.01, max_depth=4, n_estimators=200, subsample=1.0; total time=   0.2s\n",
       "[CV] END learning_rate=0.01, max_depth=4, n_estimators=200, subsample=1.0; total time=   0.2s\n",
       "[CV] END learning_rate=0.01, max_depth=4, n_estimators=200, subsample=1.0; total time=   0.2s\n",
-      "[CV] END learning_rate=0.01, max_depth=4, n_estimators=300, subsample=0.8; total time=   0.4s\n",
       "[CV] END learning_rate=0.01, max_depth=4, n_estimators=300, subsample=0.8; total time=   0.3s\n",
       "[CV] END learning_rate=0.01, max_depth=4, n_estimators=300, subsample=0.8; total time=   0.3s\n",
-      "[CV] END learning_rate=0.01, max_depth=4, n_estimators=300, subsample=0.8; total time=   0.4s\n",
+      "[CV] END learning_rate=0.01, max_depth=4, n_estimators=300, subsample=0.8; total time=   0.3s\n",
+      "[CV] END learning_rate=0.01, max_depth=4, n_estimators=300, subsample=0.8; total time=   0.3s\n",
       "[CV] END learning_rate=0.01, max_depth=4, n_estimators=300, subsample=0.8; total time=   0.3s\n",
       "[CV] END learning_rate=0.01, max_depth=4, n_estimators=300, subsample=1.0; total time=   0.3s\n",
       "[CV] END learning_rate=0.01, max_depth=4, n_estimators=300, subsample=1.0; total time=   0.3s\n",
@@ -2360,11 +1954,11 @@
       "[CV] END learning_rate=0.1, max_depth=3, n_estimators=300, subsample=0.8; total time=   0.3s\n",
       "[CV] END learning_rate=0.1, max_depth=3, n_estimators=300, subsample=0.8; total time=   0.3s\n",
       "[CV] END learning_rate=0.1, max_depth=3, n_estimators=300, subsample=0.8; total time=   0.3s\n",
+      "[CV] END learning_rate=0.1, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.2s\n",
+      "[CV] END learning_rate=0.1, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.2s\n",
+      "[CV] END learning_rate=0.1, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.2s\n",
       "[CV] END learning_rate=0.1, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.3s\n",
-      "[CV] END learning_rate=0.1, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.3s\n",
-      "[CV] END learning_rate=0.1, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.3s\n",
-      "[CV] END learning_rate=0.1, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.3s\n",
-      "[CV] END learning_rate=0.1, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.3s\n",
+      "[CV] END learning_rate=0.1, max_depth=3, n_estimators=300, subsample=1.0; total time=   0.2s\n",
       "[CV] END learning_rate=0.1, max_depth=4, n_estimators=100, subsample=0.8; total time=   0.1s\n",
       "[CV] END learning_rate=0.1, max_depth=4, n_estimators=100, subsample=0.8; total time=   0.1s\n",
       "[CV] END learning_rate=0.1, max_depth=4, n_estimators=100, subsample=0.8; total time=   0.1s\n",
@@ -2505,38 +2099,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "2fc4b3dd",
-   "metadata": {
-    "papermill": {
-     "duration": 0.056138,
-     "end_time": "2024-08-30T08:58:43.803102",
-     "exception": false,
-     "start_time": "2024-08-30T08:58:43.746964",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Lakukan training untuk Boosting Regression dengan bantuan gridsearch cv dan lihat hasil evaluasi validation dengan bantuan function regression_metrics"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 27,
-   "id": "0b5b45e9",
+   "id": "e5c97467",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:58:43.925762Z",
-     "iopub.status.busy": "2024-08-30T08:58:43.924233Z",
-     "iopub.status.idle": "2024-08-30T08:58:43.934100Z",
-     "shell.execute_reply": "2024-08-30T08:58:43.932934Z"
+     "iopub.execute_input": "2024-08-29T15:48:15.272312Z",
+     "iopub.status.busy": "2024-08-29T15:48:15.271957Z",
+     "iopub.status.idle": "2024-08-29T15:48:15.279667Z",
+     "shell.execute_reply": "2024-08-29T15:48:15.278894Z"
     },
     "papermill": {
-     "duration": 0.069736,
-     "end_time": "2024-08-30T08:58:43.936914",
+     "duration": 0.05311,
+     "end_time": "2024-08-29T15:48:15.281527",
      "exception": false,
-     "start_time": "2024-08-30T08:58:43.867178",
+     "start_time": "2024-08-29T15:48:15.228417",
      "status": "completed"
     },
     "tags": []
@@ -2548,30 +2125,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "85ebbc79",
+   "id": "737b8f8a",
    "metadata": {
     "papermill": {
-     "duration": 0.05443,
-     "end_time": "2024-08-30T08:58:44.050948",
+     "duration": 0.041291,
+     "end_time": "2024-08-29T15:48:15.364006",
      "exception": false,
-     "start_time": "2024-08-30T08:58:43.996518",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Simpan hasil evaluasi mse training pada models evaluasi"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "c71b2900",
-   "metadata": {
-    "papermill": {
-     "duration": 0.054701,
-     "end_time": "2024-08-30T08:58:44.158893",
-     "exception": false,
-     "start_time": "2024-08-30T08:58:44.104192",
+     "start_time": "2024-08-29T15:48:15.322715",
      "status": "completed"
     },
     "tags": []
@@ -2583,19 +2143,19 @@
   {
    "cell_type": "code",
    "execution_count": 28,
-   "id": "8ba454e9",
+   "id": "cb4f4396",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:58:44.269366Z",
-     "iopub.status.busy": "2024-08-30T08:58:44.268583Z",
-     "iopub.status.idle": "2024-08-30T08:58:44.294988Z",
-     "shell.execute_reply": "2024-08-30T08:58:44.293688Z"
+     "iopub.execute_input": "2024-08-29T15:48:15.485499Z",
+     "iopub.status.busy": "2024-08-29T15:48:15.484765Z",
+     "iopub.status.idle": "2024-08-29T15:48:15.511025Z",
+     "shell.execute_reply": "2024-08-29T15:48:15.509906Z"
     },
     "papermill": {
-     "duration": 0.084919,
-     "end_time": "2024-08-30T08:58:44.297332",
+     "duration": 0.070462,
+     "end_time": "2024-08-29T15:48:15.512872",
      "exception": false,
-     "start_time": "2024-08-30T08:58:44.212413",
+     "start_time": "2024-08-29T15:48:15.442410",
      "status": "completed"
     },
     "tags": []
@@ -2627,38 +2187,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "28e5e452",
-   "metadata": {
-    "papermill": {
-     "duration": 0.057524,
-     "end_time": "2024-08-30T08:58:44.413325",
-     "exception": false,
-     "start_time": "2024-08-30T08:58:44.355801",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Lakukan training untuk Linear Regression dan lihat hasil evaluasi validation dengan bantuan function regression_metrics"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 29,
-   "id": "4ce15fa5",
+   "id": "90545203",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:58:44.525325Z",
-     "iopub.status.busy": "2024-08-30T08:58:44.524549Z",
-     "iopub.status.idle": "2024-08-30T08:58:44.531827Z",
-     "shell.execute_reply": "2024-08-30T08:58:44.530568Z"
+     "iopub.execute_input": "2024-08-29T15:48:15.597169Z",
+     "iopub.status.busy": "2024-08-29T15:48:15.596649Z",
+     "iopub.status.idle": "2024-08-29T15:48:15.602142Z",
+     "shell.execute_reply": "2024-08-29T15:48:15.601158Z"
     },
     "papermill": {
-     "duration": 0.065277,
-     "end_time": "2024-08-30T08:58:44.534088",
+     "duration": 0.049983,
+     "end_time": "2024-08-29T15:48:15.604262",
      "exception": false,
-     "start_time": "2024-08-30T08:58:44.468811",
+     "start_time": "2024-08-29T15:48:15.554279",
      "status": "completed"
     },
     "tags": []
@@ -2670,30 +2213,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "94c20d5b",
+   "id": "a4c4e1c0",
    "metadata": {
     "papermill": {
-     "duration": 0.053317,
-     "end_time": "2024-08-30T08:58:44.641741",
+     "duration": 0.041108,
+     "end_time": "2024-08-29T15:48:15.687385",
      "exception": false,
-     "start_time": "2024-08-30T08:58:44.588424",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Simpan hasil evaluasi mse training pada models evaluasi"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "e2c2e20e",
-   "metadata": {
-    "papermill": {
-     "duration": 0.055265,
-     "end_time": "2024-08-30T08:58:44.751065",
-     "exception": false,
-     "start_time": "2024-08-30T08:58:44.695800",
+     "start_time": "2024-08-29T15:48:15.646277",
      "status": "completed"
     },
     "tags": []
@@ -2705,19 +2231,19 @@
   {
    "cell_type": "code",
    "execution_count": 30,
-   "id": "ff688750",
+   "id": "721ab522",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:58:44.864208Z",
-     "iopub.status.busy": "2024-08-30T08:58:44.863545Z",
-     "iopub.status.idle": "2024-08-30T08:58:44.940922Z",
-     "shell.execute_reply": "2024-08-30T08:58:44.939992Z"
+     "iopub.execute_input": "2024-08-29T15:48:15.775477Z",
+     "iopub.status.busy": "2024-08-29T15:48:15.775124Z",
+     "iopub.status.idle": "2024-08-29T15:48:15.844862Z",
+     "shell.execute_reply": "2024-08-29T15:48:15.843879Z"
     },
     "papermill": {
-     "duration": 0.136095,
-     "end_time": "2024-08-30T08:58:44.942932",
+     "duration": 0.118128,
+     "end_time": "2024-08-29T15:48:15.846761",
      "exception": false,
-     "start_time": "2024-08-30T08:58:44.806837",
+     "start_time": "2024-08-29T15:48:15.728633",
      "status": "completed"
     },
     "tags": []
@@ -2756,8 +2282,8 @@
        "    </tr>\n",
        "    <tr>\n",
        "      <th>RF</th>\n",
-       "      <td>0.957577</td>\n",
-       "      <td>0.777277</td>\n",
+       "      <td>0.958715</td>\n",
+       "      <td>0.782716</td>\n",
        "    </tr>\n",
        "    <tr>\n",
        "      <th>Boosting</th>\n",
@@ -2776,7 +2302,7 @@
       "text/plain": [
        "                      train      test\n",
        "KNN                0.762046  0.742446\n",
-       "RF                 0.957577  0.777277\n",
+       "RF                 0.958715  0.782716\n",
        "Boosting           0.965696  0.799928\n",
        "Linear Regression  0.704069  0.771313"
       ]
@@ -2802,38 +2328,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "b5a33969",
-   "metadata": {
-    "papermill": {
-     "duration": 0.052378,
-     "end_time": "2024-08-30T08:58:45.048013",
-     "exception": false,
-     "start_time": "2024-08-30T08:58:44.995635",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Tampilkan hasil evaluasi untuk setiap model baik train maupun test"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 31,
-   "id": "b18932f0",
+   "id": "7c98ea77",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-30T08:58:45.156766Z",
-     "iopub.status.busy": "2024-08-30T08:58:45.156322Z",
-     "iopub.status.idle": "2024-08-30T08:58:45.464396Z",
-     "shell.execute_reply": "2024-08-30T08:58:45.463359Z"
+     "iopub.execute_input": "2024-08-29T15:48:15.943747Z",
+     "iopub.status.busy": "2024-08-29T15:48:15.943389Z",
+     "iopub.status.idle": "2024-08-29T15:48:16.219526Z",
+     "shell.execute_reply": "2024-08-29T15:48:16.218593Z"
     },
     "papermill": {
-     "duration": 0.365371,
-     "end_time": "2024-08-30T08:58:45.466631",
+     "duration": 0.332677,
+     "end_time": "2024-08-29T15:48:16.221780",
      "exception": false,
-     "start_time": "2024-08-30T08:58:45.101260",
+     "start_time": "2024-08-29T15:48:15.889103",
      "status": "completed"
     },
     "tags": []
@@ -2841,7 +2350,7 @@
    "outputs": [
     {
      "data": {
-      "image/png": "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gwfVsWNHZWRkqF27dnriiSdkt9v15ptvusfYuXOn+vbtq7y8PAUEBFxzjL1796pnz566ePGigoKClJKSov79+2vDhg0aOnTojU/WZlNAQIDsdrt+/fVXFRUVKSoqSt98840aNGig999/Xy+99JIyMjLcgezy5csKDQ3Vhg0bNGjQIIWHh2vKlCmaMmWKJKmwsFC33Xabunbt6v5c+vXrJ6fTqX/+85/uY7/00kv68ssvtXXrVve6kydPKjIyUocOHVJubq66d++urKwsNW/evFjdv/zyi8LCwpSSkqK+fftec16zZs3Shg0blJaWJklq1qyZxo8frxkzZri36dWrl3r27KkVK1bcVG9KOsbs2bOLrWs+ddMNP28AQOkt7X39W62A0rp06ZJGjhypCxcuKCQkxKN9fSuoJrc/zvpFRERIks6cOaN27dopPT1d+/fv15o1a9zbWJaloqIiZWZmqn379vrmm280a9Yspaen69y5cyoqKpIkHT9+XB06dHDv16NHj5uq59VXX1VMTIyOHTumZ555Rq+99poaNGggSUpPT9eRI0cUHBxcbJ/ffvtNR48e1YULF3T69Gn16tXL/Z7dblf37t3ddV3RvXv3Ysvp6enasWOHgoKCrqnp6NGjGjRokO6991516tRJsbGxGjRokB555BHVr19fDRo0UEJCgmJjYzVw4EDFxMRo+PDh7s/zj5xOp3766SdFR0cXWx8dHa309PRi627Um6tNnz5dkydPLnacu5anX7MdAKB8xMfHe7sEj7lcLiUnJ2vgwIHy8/Pzdjm11o36UJYrhRUeGv9Y7JXZuysBKzc3V08++aQmTpx4zX633nqr8vLyFBsbq9jYWK1Zs0aNGjXS8ePHFRsbe83DJXXr1r2pesLDw9WqVSu1atVKq1atUnx8vA4ePKjGjRu7Z/v+GGKvaNSo0U2fc0n15ObmasiQIVqwYME120ZERMhutys5OVm7du3Sp59+qmXLlmnmzJn66quv1KJFC61atUoTJ07Uli1b9NFHH+mFF15QcnKy/uVf/sWjuv7oRr25msPh8PpDTgBQm1Tn0OXn51et668pSupDWfri1S/37tatmw4ePOgOcX98+fv76/vvv9fPP/+s+fPn6+6771a7du2KPQRTVr169VL37t318ssvu+s5fPiwGjdufE099erVU7169dSkSRPt2bPH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",
+      "image/png": "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",
       "text/plain": [
        "<Figure size 640x480 with 1 Axes>"
       ]
@@ -2857,38 +2366,21 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "13aa3a28",
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "66832f87",
    "metadata": {
     "papermill": {
-     "duration": 0.055948,
-     "end_time": "2024-08-30T08:58:45.578594",
+     "duration": 0.0423,
+     "end_time": "2024-08-29T15:48:16.308548",
      "exception": false,
-     "start_time": "2024-08-30T08:58:45.522646",
+     "start_time": "2024-08-29T15:48:16.266248",
      "status": "completed"
     },
     "tags": []
    },
-   "source": [
-    "#### Tampilkan hasil evaluasi untuk setiap model baik train maupun test dalam bentuk bar plot"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "361ecf55",
-   "metadata": {
-    "papermill": {
-     "duration": 0.054102,
-     "end_time": "2024-08-30T08:58:45.687731",
-     "exception": false,
-     "start_time": "2024-08-30T08:58:45.633629",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "#### Bisa dilihat Boosting Algorithm menghasilkan hasil paling baik dibandingkan model lainnya"
-   ]
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
@@ -2908,7 +2400,7 @@
    "sourceType": "notebook"
   },
   "kernelspec": {
-   "display_name": "Python 3",
+   "display_name": "Python 3 (ipykernel)",
    "language": "python",
    "name": "python3"
   },
@@ -2922,18 +2414,18 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
-   "version": "3.10.14"
+   "version": "3.10.13"
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 157.43424,
-   "end_time": "2024-08-30T08:58:46.366418",
+   "duration": 137.697788,
+   "end_time": "2024-08-29T15:48:16.970703",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-08-30T08:56:08.932178",
+   "start_time": "2024-08-29T15:45:59.272915",
    "version": "2.6.0"
   }
  },
