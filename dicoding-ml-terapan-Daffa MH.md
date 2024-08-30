@@ -177,7 +177,7 @@ Hasil dari model yang dipilih akan dibandingkan untuk menentukan model dengan pe
 
  Jawaban dari Problem Statement: 
 1. Bisa dilihat secara umum model Boosting Regressor lebih menghasilkan prediksi yang lebih baik dibandingkan model lainnya. Hal ini yang membuat kita dapat memakai model boosting regression untuk memprediksi harga properti di menteng. Akan tetapi hasil evaluasi model masih dapat ditingkatkan.
-2. Lalu untuk atribut-atribut yang sangat mempengaruhi harga properti di kawasan menteng adalah LT (luas tan nah) daLB (luas bangunan)  
+2. Lalu untuk atribut-atribut yang sangat mempengaruhi harga properti di kawasan menteng adalah LT (luas tan nah) dan LB (luas bangunan)  
 
 
 
