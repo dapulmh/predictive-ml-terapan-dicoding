@@ -2,7 +2,7 @@
 
 # Prediksi Harga Rumah di Kawasan Menteng
 
-## Latar Belakang
+## Domain
 Kawasan Menteng di Jakarta Pusat merupakan area yang terkenal dengan nilai properti yang tinggi. Untuk mendukung pengambilan keputusan dalam jual-beli properti, proyek ini bertujuan untuk mengembangkan model prediksi harga rumah berdasarkan berbagai faktor seperti luas bangunan, luas tanah, jumlah kamar tidur, kamar mandi, dan kapasitas garasi.
 
 ## Business Understanding
@@ -23,8 +23,7 @@ Tujuan utama dari proyek ini adalah untuk menyediakan model prediksi harga rumah
 - Modelling: Pengembangan dan evaluasi beberapa model machine learning.
 - Evaluation: Mengevaluasi kinerja model menggunakan metrik seperti MAE, RMSE, dan R².
 
-## Data Preparation
-### Dataset
+## Data Understanding
 Dataset diambil dari Kaggle dan memiliki atribut berikut:
 
 1. NO: Nomor data.
@@ -49,7 +48,9 @@ Dataset diambil dari Kaggle dan memiliki atribut berikut:
 
 ![download](https://github.com/user-attachments/assets/1325ce56-5b8c-4fa7-9acc-3a5827be26c1)
 
-## Preprocessing
+Bisa dilihat berdasarkan gambar atribut yang paling mempengaruhi tinggi rendahnya harga adalah LB (luas bangunan)
+
+## Data Preparation
 - Missing Values: Penanganan data yang hilang dengan dengan menghilangkan data.
 
 Berdasarkan data yang diperoleh tidak terdapat missing value sehingga tidak perlu diatasi
@@ -64,7 +65,7 @@ Berdasarkan data yang diperoleh tidak terdapat duplicate value sehingga tidak pe
   
 Berdasarkan evaluasi data, penghilangan outlier malah mengurangi akurasi data sehingga tidak saya hilangkan
 
-## Modelling
+## Model Development
 
 Model yang Digunakan:
 - Linear Regression: model machine learning statistik yang digunakan untuk memprediksi nilai dari variabel dependen (target) berdasarkan satu atau lebih variabel independen (fitur)
@@ -72,7 +73,7 @@ Model yang Digunakan:
 - Boosting Regressor: Teknik ensemble yang menggabungkan beberapa model lemah (biasanya decision tree kecil) secara bertahap untuk membentuk model yang kuat. 
 - KNN : algoritma non-parametrik yang digunakan untuk klasifikasi dan regresi. Dalam KNN, prediksi dibuat berdasarkan rata-rata atau mayoritas suara dari k tetangga terdekat dalam ruang fitur.
 
-Keempat model tersebut dieksperimenkan untuk dilakukan training dan dilihat evaluasi model mana yang memiliki hasil terbaik, baik untuk hasil training maupun validation.
+Keempat model tersebut dieksperimenkan untuk dilakukan training dan dilihat evaluasi model mana yang memiliki hasil terbaik, baik untuk hasil training maupun validation. Saya juga melakukan gridsearch untuk menemukan parameter terbaik untuk setiap model sehingga mendapatkan akurasi yang maksimal untuk setiap modelnya.
 
 ## Evaluasi Model
 Model dievaluasi menggunakan cross-validation dan metrik evaluasi seperti:
