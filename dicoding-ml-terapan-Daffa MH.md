@@ -48,7 +48,7 @@ Dataset diambil dari Kaggle dan memiliki atribut berikut:
 
 ![download](https://github.com/user-attachments/assets/1325ce56-5b8c-4fa7-9acc-3a5827be26c1)
 
-Bisa dilihat berdasarkan gambar atribut yang paling mempengaruhi tinggi rendahnya harga adalah LB (luas bangunan)
+Bisa dilihat berdasarkan gambar atribut yang paling mempengaruhi tinggi rendahnya harga adalah LT (luas tanah)
 
 ## Data Preparation
 - Missing Values: Penanganan data yang hilang dengan dengan menghilangkan data.
